@@ -1,0 +1,132 @@
+
+
+
+
+ .header4 {
+  border: 5px solid #555;
+  padding: 5px;
+  text-align: center;
+  background: #9C1ABC;
+  color: white;
+  font-family: Felix Titling;
+  font-size: 20px;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #33EAD1;
+  color: black;
+}
+
+.next {
+  background-color: #33EAD1;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+
+/* Universal box-sizing reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Center website content */
+.main {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Main heading */
+h1 {
+  font-size: 50px;
+  word-break: break-word; /* Changed to break-word for better word breaking */
+  text-align: center; /* Center aligned the heading */
+  margin: 20px 0; /* Added margin for spacing */
+}
+
+
+/* Row styling */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Column styling */
+.column {
+  flex: 1 1 33.33%;
+  padding: 8px;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows - not needed as flexbox is used */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content styling */
+.content {
+  text-align: center;
+  font-family: Felix Titling;
+  font-size: 20px;
+  font-size: 20px;
+  float: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px; /* Added border-radius for smooth edges */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Added subtle shadow for depth */
+}
+
+/* Show class to display filtered elements */
+.show {
+  display: block;
+}
+
+
+
+
+
+
+
+
+ /* Footer */
+        footer {
+            border: 5px solid #555;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            font-size: 15px;
+            padding: 2px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #1A9CBC;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }

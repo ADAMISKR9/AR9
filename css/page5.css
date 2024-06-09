@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+.header4 {
+  border: 5px solid #555;
+  padding: 5px;
+  text-align: center;
+  background: #9C1ABC;
+  color: white;
+  font-family: Felix Titling;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+:root {
+  --img-width: 50px;
+  --img-height: 500px;
+  --img-hover-width: 500px;
+  --border-radius: 50px;
+  --transition-duration: 0.5s;
+  --margin-right: 30px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+  gap: var(--margin-right); /* Use gap for spacing */
+}
+
+img {
+  width: var(--img-width);
+  height: var(--img-height);
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: width var(--transition-duration) ease-in-out;
+}
+
+img:hover {
+  width: var(--img-hover-width);
+}
+
+
+video {
+  width: var(--img-width);
+  height: var(--img-height);
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: width var(--transition-duration) ease-in-out;
+}
+
+video:hover {
+  width: var(--img-hover-width);
+}
+
+
+/* Media query for better responsiveness */
+@media (max-width: 800px) {
+  img {
+    height: auto; /* Maintain aspect ratio on smaller screens */
+  }
+}
+
+
+ /* Footer */
+        footer {
+            border: 5px solid #555;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            font-size: 15px;
+            padding: 2px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #1A9CBC;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }

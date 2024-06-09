@@ -1,0 +1,86 @@
+.header3 {
+  background: #9C1ABC;
+  font-family: Felix Titling;
+  font-size: 20px;
+}
+
+
+
+img {
+  border-radius: 50%;
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #33EAD1;
+  color: black;
+}
+
+.next {
+  background-color: #33EAD1;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+
+.container {
+  float: left;
+  position: relative;
+  max-width: 500px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+  padding: 3px;
+}
+
+.container .content {
+  text-align: center;
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 90%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+
+ /* Footer */
+        footer {
+            border: 5px solid #555;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            font-size: 15px;
+            padding: 2px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #1A9CBC;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }

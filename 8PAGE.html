@@ -1,0 +1,104 @@
+<html>
+<head>
+<title> MEMES GALLERY </title>
+<link rel="stylesheet" href="css/individu.css">
+<link rel="stylesheet" href="css/page6.css">
+
+</head>
+<style>
+body {
+  background-image: url('sumber2/gambar/space.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+<div class="topnav">
+  <a href="INDIVIDU.html" class="split">MUKA DEPAN </a>
+  <a href="7PAGE.html"> MEMORIES </a>
+  <a href="6PAGE.html"> FAVOURITE THINGS </a>
+  <a href="5PAGE.html">EDUCATION </a>
+  <a href="4PAGE.html"> SPESIFIC HOBBY </a>
+  <a href="3PAGE.html"> HOBBY </a>
+  <a href="2PAGE.html"> FAMILIES </a>
+  <a href="1PAGE.html"> ABOUT ME </a>
+
+</div>
+
+<div class="header5">
+  <h1>MEMES GALLERY</h1>
+  <p>FOR FUN</p>
+</div>
+
+<br><br><br><br>
+
+<hr>
+  <center><a href="7PAGE.html" class="previous round">&#8249;</a><a href="INDIVIDU.html" class="next round">&#8250;</a></center>
+
+<hr>
+
+<br><br>
+
+<!-- Container for Images -->
+<div class="image-container">
+  <img id="myImg1" src="sumber2/gambar/meme1.jpg"  style="width:100%;max-width:200px">
+  <img id="myImg2" src="sumber2/gambar/meme2.jpg"  style="width:100%;max-width:280px">
+  <img id="myImg3" src="sumber2/gambar/meme3.jpg"  style="width:100%;max-width:340px">
+  <img id="myImg1" src="sumber2/gambar/meme4.jpg"  style="width:100%;max-width:230px">
+  <img id="myImg2" src="sumber2/gambar/meme5.jpg"  style="width:100%;max-width:310px">
+  <img id="myImg3" src="sumber2/gambar/meme6.jpg"  style="width:100%;max-width:250px">
+  <img id="myImg2" src="sumber2/gambar/meme7.jpg"  style="width:100%;max-width:310px">
+  <img id="myImg3" src="sumber2/gambar/meme8.jpg"  style="width:100%;max-width:250px">
+  <img id="myImg2" src="sumber2/gambar/meme9.jpg"  style="width:100%;max-width:280px">
+  <img id="myImg3" src="sumber2/gambar/meme10.jpg"  style="width:100%;max-width:280px">
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+
+  // Get all images and set up event listeners
+  var images = document.querySelectorAll('.image-container img');
+  images.forEach(function(img) {
+    img.onclick = function() {
+      modal.style.display = "flex";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+  });
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+</script>
+
+
+
+<br><br><br><br><br>
+
+<footer>
+  <p>2024 Copyright by @ADAM ISKANDAR :</p>
+  <p>adam.iskandar.zulkarnine@gmail.com: <a href="mailto:adam.iskandar.zulkarnine@gmail.com">Personal Email</a></p>
+  <p>2022642664@student.uitm.edu.my: <a href="mailto:2022642664@student.uitm.edu.my">Student Email</a></p>
+</footer>
+
+</body>
+</html>
